@@ -1,0 +1,23 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "CoffeeShop": 5
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "CoffeeShop": {
+      "1": "{\"name\":\"Abraxas\",\"city\":\"Amsterdam\",\"id\":1}",
+      "2": "{\"name\":\"Bel Cafe\",\"city\":\"Vancouver\",\"id\":2}",
+      "3": "{\"name\":\"Three Bees Coffee House\",\"city\":\"San Mateo\",\"id\":3}",
+      "4": "{\"name\":\"Caffe Artigiano\",\"city\":\"Vancouver\",\"id\":4}"
+    }
+  }
+}
