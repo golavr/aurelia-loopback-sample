@@ -5,10 +5,10 @@ Sample for using aurelia front-end and loopback back-end
 ## Installation instructions
 
 ```sh
-npm Install
+npm install
 ```
 
-## Run server
+### Run server
 ```sh
 node .
 ```
