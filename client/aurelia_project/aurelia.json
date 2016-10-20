@@ -115,6 +115,9 @@
           "aurelia-task-queue",
           "aurelia-templating",
           "aurelia-templating-binding",
+          "extend",
+          "aurelia-fetch-client",
+          "aurelia-api",
           "jquery",
           {
             "name": "bootstrap",

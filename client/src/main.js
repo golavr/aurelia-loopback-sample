@@ -11,7 +11,12 @@ Promise.config({
 export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
-    .feature('resources');
+    .feature('resources')
+    // REST api hook
+    .plugin('aurelia-api', config => {
+        // Register hosts
+        config.registerEndpoint('api','http://localhost:3000/api/');
+    });
 
   if (environment.debug) {
     aurelia.use.developmentLogging();
