@@ -1,0 +1,2 @@
+/* bootstrap navbar is hidding body content, so set padding-top */
+body { padding-top: 70px; }

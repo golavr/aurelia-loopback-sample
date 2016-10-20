@@ -1,0 +1,12 @@
+<template>
+	<div class="jumbotron">
+		<h1>${title}</h1>
+		<p>TODO</p>
+		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+	<ul>
+		<li repeat.for="coffeshop of coffeeshops">
+			<h3>${coffeshop.name}, ${coffeshop.city}</h3>
+		</li>
+	</ul>
+</template>
