@@ -30,7 +30,7 @@ To run the client you need to have Aurelia CLI. From the command line, use npm t
 ```sh
 npm install aurelia-cli -g
 ```
-Once you have the CLI installed. Eexecute the following command from within the client folder
+Once you have the CLI installed. Execute the following command from within the client folder
 ```sh
 au run
 ```
