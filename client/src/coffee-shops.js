@@ -7,14 +7,14 @@ export class CoffeeShops {
         // endpoints are defined in configure(aurelia)
         this.apiEndpoint = config.getEndpoint('api');
         this.title = 'Coffee Shops Page';
-        this.coffeeshops = [];
+        this.coffeeShops = [];
     }
 
     activate() {
         this.getEndpoint()
             .then(result => {
                 console.log(result);
-                this.coffeeshops = result;
+                this.coffeeShops = result;
             });
     }
 
