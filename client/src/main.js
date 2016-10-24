@@ -14,8 +14,8 @@ export function configure(aurelia) {
     .feature('resources')
     // REST api hook
     .plugin('aurelia-api', config => {
-        // Register hosts
-        config.registerEndpoint('api','http://localhost:3000/api/');
+      // Register hosts
+      config.registerEndpoint('api', 'http://localhost:3000/api/');
     });
 
   if (environment.debug) {
