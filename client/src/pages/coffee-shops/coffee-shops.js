@@ -3,22 +3,18 @@ import { Config } from 'aurelia-api';
 
 @inject(Config)
 export class CoffeeShops {
-    constructor(config) {
+    constructor(api) {
         // endpoints are defined in configure(aurelia)
-        this.apiEndpoint = config.getEndpoint('api');
+        this.apiEndpoint = api.getEndpoint('api');
         this.title = 'Coffee Shops Page';
         this.coffeeShops = [];
     }
 
     activate() {
-        this.getEndpoint()
+        this.apiEndpoint.find('CoffeeShops')
             .then(result => {
                 console.log(result);
                 this.coffeeShops = result;
             });
-    }
-
-    getEndpoint() {
-        return this.apiEndpoint.find('CoffeeShops');
     }
 }
